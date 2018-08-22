@@ -233,9 +233,9 @@ class Sun extends Component {
         </defs>
         {/* sun */}
         <g transform={`translate(${this.props.x} ${this.props.y})`}>
-        <circle cx={200} cy={window.innerHeight/2} r={sunR} fill="#fa3" stroke="none"/>
+        <circle cx={window.innerWidth/2} cy={window.innerHeight/2} r={sunR} fill="#fa3" stroke="none"/>
         <g>
-        <ellipse id="planet1Orbit" cx={200} cy={window.innerHeight/2} rx={computedEarth.rx} ry={computedEarth.ry} fill="none" stroke="#C8C8C8"/>
+        <ellipse id="planet1Orbit" cx={window.innerWidth/2} cy={window.innerHeight/2} rx={computedEarth.rx} ry={computedEarth.ry} fill="none" stroke="#C8C8C8"/>
         
           <circle ref='earthRef' id="planet1" cx={window.innerWidth/2 - computedEarth.rx} cy={window.innerHeight/2} r={computedEarth.r} fill={planets[2].Color} stroke="none"  >  
         
@@ -246,7 +246,7 @@ class Sun extends Component {
         {planets.map((p, index) => (
           
         <g key={index}>
-          <ellipse cx={200} cy={window.innerHeight/2} rx={computedEarth.rx * Math.sqrt(p.DistancefromSun)} ry={computedEarth.ry * Math.sqrt(p.DistancefromSun)} fill="none" stroke="#C8C8C8"/>
+          <ellipse cx={window.innerWidth/2} cy={window.innerHeight/2} rx={computedEarth.rx * Math.sqrt(p.DistancefromSun)} ry={computedEarth.ry * Math.sqrt(p.DistancefromSun)} fill="none" stroke="#C8C8C8"/>
         
           
           <circle cx={window.innerWidth/2 -(computedEarth.rx * Math.sqrt(p.DistancefromSun))} cy={window.innerHeight/2} r={computedEarth.r * p.Diameter} fill={p.Color} stroke="none" style={{filter: 'url(#planetFilter)'}} >  
