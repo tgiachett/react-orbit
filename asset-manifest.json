@@ -1,7 +1,15 @@
 {
-  "main.css": "static/css/main.c17080f1.css",
-  "main.css.map": "static/css/main.c17080f1.css.map",
-  "main.js": "static/js/main.656814fc.js",
-  "main.js.map": "static/js/main.656814fc.js.map",
-  "static\\media\\logo.svg": "static/media/logo.5d5d9eef.svg"
+  "files": {
+    "main.css": "/react-orbit/static/css/main.4b738920.chunk.css",
+    "main.js": "/react-orbit/static/js/main.552b7cd7.chunk.js",
+    "main.js.map": "/react-orbit/static/js/main.552b7cd7.chunk.js.map",
+    "runtime~main.js": "/react-orbit/static/js/runtime~main.d901a67f.js",
+    "runtime~main.js.map": "/react-orbit/static/js/runtime~main.d901a67f.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/react-orbit/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/react-orbit/static/js/2.d6a534e5.chunk.js.map",
+    "index.html": "/react-orbit/index.html",
+    "precache-manifest.1fdf2789b6217b94c28332f60721bcd7.js": "/react-orbit/precache-manifest.1fdf2789b6217b94c28332f60721bcd7.js",
+    "service-worker.js": "/react-orbit/service-worker.js",
+    "static/css/main.4b738920.chunk.css.map": "/react-orbit/static/css/main.4b738920.chunk.css.map"
+  }
 }
